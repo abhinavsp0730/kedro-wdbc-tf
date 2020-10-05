@@ -1,0 +1,6 @@
+context_path: python_package.run.ProjectContext
+project_name: "wbdc-tf"
+project_version: "0.16.5"
+package_name: "python_package"
+hooks:
+  - python_package.hooks.project_hooks
