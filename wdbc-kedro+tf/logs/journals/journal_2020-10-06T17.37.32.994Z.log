@@ -1,0 +1,1 @@
+{"type": "ContextJournalRecord", "run_id": "2020-10-06T17.37.32.994Z", "project_path": "/home/neurlap/Documents/GitHub/kedro-examples/kedro-tutorial", "env": "local", "kedro_version": "0.16.4", "tags": [], "from_nodes": [], "to_nodes": [], "node_names": [], "from_inputs": [], "load_versions": {}, "pipeline_name": null, "extra_params": {}, "git_sha": null}
