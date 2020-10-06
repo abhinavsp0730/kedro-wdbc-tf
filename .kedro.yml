@@ -1,0 +1,6 @@
+context_path: dl_tensorflow.run.ProjectContext
+project_name: "dl_tensorflow"
+project_version: "0.16.5"
+package_name: "dl_tensorflow"
+hooks:
+  - dl_tensorflow.hooks.project_hooks

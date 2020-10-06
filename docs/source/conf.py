@@ -29,7 +29,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# python_package documentation build
+# dl_tensorflow documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -50,11 +50,11 @@ import re
 from kedro.framework.cli.utils import find_stylesheets
 from recommonmark.transform import AutoStructify
 
-from python_package import __version__ as release
+from dl_tensorflow import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "python_package"
+project = "dl_tensorflow"
 copyright = "2020, QuantumBlack Visual Analytics Limited"
 author = "QuantumBlack"
 
@@ -149,7 +149,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "python_packagedoc"
+htmlhelp_basename = "dl_tensorflowdoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -177,8 +177,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "python_package.tex",
-        "python_package Documentation",
+        "dl_tensorflow.tex",
+        "dl_tensorflow Documentation",
         "QuantumBlack",
         "manual",
     )
@@ -191,8 +191,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "python_package",
-        "python_package Documentation",
+        "dl_tensorflow",
+        "dl_tensorflow Documentation",
         [author],
         1,
     )
@@ -206,11 +206,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "python_package",
-        "python_package Documentation",
+        "dl_tensorflow",
+        "dl_tensorflow Documentation",
         author,
-        "python_package",
-        "Project python_package codebase.",
+        "dl_tensorflow",
+        "Project dl_tensorflow codebase.",
         "Data-Science",
     )
 ]

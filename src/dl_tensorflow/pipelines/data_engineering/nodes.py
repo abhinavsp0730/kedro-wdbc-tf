@@ -9,8 +9,9 @@ def create_features(wdbc: pd.DataFrame) -> pd.DataFrame:
         preprocessed the data and returns features
     """
 
-    features = ['radius','texture', 'area_worst']
+    features = ['radius', 'texture', 'area_worst']
     return my_data[features]
+
 
 def create_labels(wdbc: pd.DataFrame) -> pd.DataFrame:
     """ preprocess the wdbc dataset
