@@ -10,5 +10,5 @@ pytest-mock>=1.7.1,<2.0
 pytest>=3.4, <4.0
 wheel==0.32.2
 scikit-learn==0.20.2
-tensorflow-cpu
-numpy
+tensorflow-cpu==2.3.1
+numpy==1.8.2 
